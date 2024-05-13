@@ -1,0 +1,49 @@
+body {
+    background-color: #bc8f8f;
+    color: rgb(0, 0, 0);
+  }
+  
+  h1 {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .stopwatch {
+    justify-content: center;
+    grid-row-gap: 15px;
+    width: 20%;
+    padding-top: 10px;
+  }
+  
+  .time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 30px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+  }
+  
+  button {
+    cursor: pointer;
+    background: transparent;
+    padding: 10px;
+    margin: 0;
+    outline: none;
+  }
+  
+  #start {
+    background-color: green; /* Example color */
+  }
+  
+  #stop {
+    background-color: red; /* Example color */
+  }
+  
+  #reset {
+    background-color: blue; /* Example color */
+  }
+  
